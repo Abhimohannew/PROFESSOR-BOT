@@ -41,7 +41,7 @@ async def start(client, message):
             InlineKeyboardButton("Share With Friends 📱", url="https://telegram.me/share/url?url=t.me/FF_Series_Bot")
             ],[
             InlineKeyboardButton("🔍 𝚂𝙴𝙰𝚁𝙲𝙷 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("🎬 𝐌𝐨𝐯𝐢𝐞𝐬 𝐁𝐨𝐭", url="https://t.me/RBMoviesBot")
+            InlineKeyboardButton("🎬 𝐌𝐨𝐯𝐢𝐞𝐬 𝐁𝐨𝐭", url="https://t.me/FF_Movies_Bot")
             ],[      
             InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
